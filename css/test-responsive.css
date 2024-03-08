@@ -1,0 +1,132 @@
+@media screen and (max-width: 1350px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 400px;
+    }
+
+    .desc-wrap {
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .desc-wrap {
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    #about {
+        padding-bottom: 18em;
+    }
+    .desc-wrap {
+        margin-top: 4em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .desc-wrap {
+        margin-top: 5em;
+    }
+
+    .desc-wrap h2 {
+        font-size: 1.4rem;
+    }
+
+    .desc-wrap h3 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .desc-wrap {
+        margin-top: 7em;
+    }
+}
+
+/* TABLET DESIGN */
+@media screen and (max-width: 1090px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 330px;
+    }
+
+    #about {
+        padding-bottom: 27em;
+    }
+
+    .founder-wrap {
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 1fr;
+        align-items: start;
+    }
+
+    .founder-wrap img {
+        width: 22%;
+        height: 90%;
+        left: 15%;
+    }
+
+    .desc-wrap {
+        margin: 0;
+        padding: 9em 3em 2.5em 3em;
+        width: 80%;
+        top: 40%;
+        left: 10%;
+    }
+
+    .desc-wrap h2 {
+        font-size: 1.6rem;
+        position: absolute;
+        top: 10%;
+        left: 40%;
+    }
+
+    .desc-wrap h3 {
+        font-size: 1.3rem;
+        position: absolute;
+        top: 20%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .desc-wrap {
+        padding: 8em 3em 2em 3em;
+    }
+
+    .desc-wrap h2 {
+        font-size: 1.4rem;
+    }
+
+    .desc-wrap h3 {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #about {
+        padding-bottom: 30em;
+    }
+
+    .desc-wrap h3 {
+        top: 18%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 270px;
+    }
+
+    .desc-wrap {
+        padding: 7em 3em 2em 3em;
+    }
+
+    .desc-wrap h2 {
+        top: 8%;
+    }
+
+    .desc-wrap h3 {
+        top: 15%;
+    }
+}

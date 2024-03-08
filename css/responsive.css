@@ -1,0 +1,709 @@
+@media screen and (min-width: 420px) {
+    .founder-wrap img {
+        height: 350px;
+    }
+
+    .test {
+        height: 230px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    #about {
+        height: 850px;
+    }
+
+    .about-wrap {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        position: relative;
+        top: 150px;
+        height: 425px;
+        z-index: 10;
+    }
+
+    .founder-wrap {
+        position: relative;
+        top: -230px;
+        left: 10%;
+        z-index: 11;
+    }
+
+    .founder-wrap img {
+        height: 250px;
+        border-radius: 20px;
+    }
+
+    .desc-wrap {
+        position: absolute;
+        top: 100px;
+        z-index: 10;
+    }
+
+    .test {
+        height: 260px;
+    }
+}
+
+@media screen and (min-width: 520px) {
+    .about-wrap {
+        height: 405px;
+    }
+
+    footer {
+        padding-top: 6em;
+    }
+
+    .footer-img {
+        width: 180px;
+        top: -205px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .test {
+        height: 290px;
+    }
+    
+    .fa-google {
+        font-size: 1.5rem;
+    }
+
+    input, textarea, .map iframe {
+        width: 400px;
+    }
+    
+}
+
+@media screen and (min-width: 596px) {
+    #about {
+        height: 930px;
+    }
+
+    .about-wrap {
+        height: 520px;
+    }
+
+    .founder-wrap {
+        top: -280px;
+    }
+
+    #read-more {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    #banner .btn:nth-of-type(1) {
+        margin-right: 6.5em;
+    }
+
+    .founder-wrap {
+        width: 80%;
+    }
+
+    .gallery-wrap {
+       grid-template-columns: repeat(2, 1fr);
+       gap: 1.5em;
+    }
+
+    .gallery5 {
+        display: inline-block;
+    }
+    
+    .test {
+        height: 320px;
+    }
+
+    input, textarea, .map iframe {
+        width: 450px;
+    }
+
+    footer {
+        padding-top: 7em;
+    }
+
+    .footer-text a {
+        font-size: 1.2rem;
+    }
+
+    .footer-img {
+        width: 200px;
+        top: -225px;
+    }
+}
+
+@media screen and (min-width: 624px) {
+    #about {
+        height: 910px;
+    }
+
+    .about-wrap {
+        height: 500px;
+    }
+
+    .founder-wrap {
+        top: -270px;
+    }
+
+    .gallery-wrap {
+        gap: 0;
+        row-gap: 1.5em;
+    }
+
+    .modal-content {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 660px) {
+    /* BANNER */
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 270px;
+    }
+
+    .test {
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 694px) {
+    .about-wrap {
+        height: 480px;
+    }
+
+    .founder-wrap {
+        top: -260px;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #banner .btn:nth-of-type(1) {
+        margin-top: 5em;
+        margin-right: 7.5em;
+    }
+
+    .founder-wrap {
+        width: 70%;
+    }
+
+    .test {
+        height: 380px;
+    }
+
+    input, textarea, .map iframe {
+        width: 500px;
+    }
+
+    footer {
+        padding-top: 8em;
+    }
+
+    .footer-img {
+        width: 220px;
+        top: -245px;
+    }
+}
+
+@media screen and (min-width: 709px) {
+    .about-wrap {
+        height: 460px;
+    }
+
+    .founder-wrap {
+        top: -250px;
+    }
+}
+
+
+/* TABLET */
+@media screen and (min-width: 760px) {
+    header {
+        padding: 0 2em 0 1.5em;
+    }
+
+    nav {
+        visibility: visible;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        place-items: center;
+        gap: 3em;
+    }
+
+    .hamburger-menu nav {
+        display: none;
+    }
+
+    .openbtn {
+        visibility: hidden;
+    }
+
+    /* BANNER */
+    h1 {
+        font-size: 3rem;
+    }
+
+    #banner h2 {
+        font-size: 2.5rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+    }
+
+    .btn:after {
+        top: 1.13em;
+    }
+
+    #banner .btn:hover:before {
+        width: 167px;
+    }
+    
+    #banner .btn:nth-of-type(2):hover:before {
+        width: 160px;
+    }
+
+    #banner .btn:nth-of-type(1) {
+        margin-top: 4em;
+    }
+
+    /* ABOUT */
+    .founder-wrap {
+        width: 60%;
+    }
+
+    /* service btn */
+    .card-wrap {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mask .btn {
+        margin-top: 0em;
+    }
+    
+    .mask .btn:hover:before {
+        width: 180px;
+    }
+
+    /* GALLERY */
+    .gallery-wrap {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .gallery, .gallery a {
+        width: 95%;
+    }
+
+    .gallery5 {
+        grid-column: -3 / -1;
+    }
+
+    /* testimonials */
+    .test {
+        height: 200px;
+    }
+
+    .fa-google {
+        font-size: 1rem;
+    }
+
+    .test-slider .slick-dots  {
+        margin-top: -1em;
+    }
+
+    .test-slider .slick-dots li button  {
+        width: 15px;
+        height: 15px;
+    }
+
+    .test-slider .slick-arrow {
+        font-size: 2rem;
+    }
+
+    .test-slider .slick-arrow.prev {
+        left: -15px;
+    }
+    
+    .test-slider .slick-arrow.next {
+        right: -15px;
+    }
+    
+    footer {
+        padding-top: 3em;
+    }
+
+    .footer-text {
+        width: 700px;
+        margin-bottom: 1.5em;
+    }
+
+    .footer-img {
+        top: -140px;
+        left: -20px;
+    }
+}
+
+@media screen and (min-width: 790px) {
+    #banner .btn:nth-of-type(1) {
+        margin-right: 8.5em;
+    }
+
+    .about-wrap {
+        height: 440px;
+    }
+
+    .founder-wrap {
+        top: -240px;
+    }
+
+    .modal-content {
+        width: 70%;
+    }
+
+    .contact-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        gap: 2em;
+    }
+
+    .contact-form p, .map-text {
+        justify-self: start;
+        margin-left: .5em;
+    }
+
+    input, textarea, .map iframe {
+        width: 335px;
+    }
+}
+
+@media screen and (min-width: 820px) {
+    nav a {
+        font-size: 1.1rem;
+    }
+
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 300px;
+    }
+
+    .card-wrap {
+        row-gap: 2em;
+    }
+
+    .test {
+        height: 230px;
+    }
+
+    form, .map {
+        width: 344px;
+    }
+
+    .footer-img {
+        width: 240px;
+    }
+}
+
+@media screen and (min-width: 927px) {
+    #about {
+        height: auto;
+    }
+
+    .about-wrap {
+        width: 600px;
+        height: 530px;
+        top: 0;
+        left: 70%;
+        transform: translateX(-70%);
+    }
+
+    .founder-wrap {
+        width: 90%;
+        top: 0;
+        left: -40%;
+    }
+
+    .desc-wrap {
+        top: 0;
+        left: 25%;
+        padding: 2em;
+    }
+
+    .founder-wrap img {
+        height: 350px;
+    }
+
+    .modal-content {
+        height: 100%;
+    } 
+
+    form, .map {
+        width: 400px;
+    }
+
+    input, textarea, .map iframe {
+        width: 400px;
+    }
+
+    .footer-img {
+        left: 0;
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 330px;
+    }
+
+    header {
+        padding: 0 3em 0 2.5em;
+    }
+
+    #banner .btn:nth-of-type(1) {
+        margin-right: 10.5em;
+    }
+
+    .gallery-wrap {
+        gap: 1em;
+        row-gap: 2em;
+    }
+
+    .test {
+        height: 260px;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    nav {
+        gap: 4em;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    #banner {
+        justify-content: end;
+    }
+
+    .banner-box {
+        width: 500px;
+        margin-right: 5em;
+    }
+
+    #banner h2 {
+        margin-right: 6em;
+    }
+
+    .banner-text {
+        font-size: 1.4rem;
+        left: 22%;
+    }
+
+    #banner .btn:nth-of-type(2) {
+        position: relative;
+        left: -10%;
+    }
+
+    .card-wrap {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em;
+    }
+
+    .card, .card img, .mask {
+        width: 95%;
+    }
+
+    .mask p {
+        font-size: 1.4rem;
+    }
+    
+    #testimonials .container {
+        width: 85%;
+    }
+
+    .fa-google {
+        font-size: 1.5rem;
+    }
+
+    .test-slider .slick-arrow.prev {
+        left: -40px;
+    }
+      
+    .test-slider .slick-arrow.next {
+        right: -40px;
+    }
+
+    footer {
+        padding-top: 3.5em;
+    }
+
+    .footer-img {
+        width: 280px;
+    }
+
+    .footer-text a {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    header {
+        padding: 0 4em 0 3.5em;
+    }
+
+    section {
+        padding: 2em 0 12em 0;
+    }
+
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 400px;
+    }
+
+    .title {
+        font-size: 2.2rem;
+    }
+
+    .about-wrap {
+        width: 700px;
+    }
+
+    .desc-wrap {
+        font-size: 1.1rem;
+    }
+
+    .gallery-wrap {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2em;
+    }
+
+    .gallery5 {
+        grid-column: 1/-3;
+    }
+
+    .gallery6 {
+        display: inline-block;
+    }
+
+    .gallery, .gallery a {
+        width: 100%;
+    }
+
+    .test {
+        height: 290px;
+    }
+
+    .test-slider .slick-arrow {
+        font-size: 2.5rem;
+    }
+
+    .test-slider .slick-dots {
+        margin-top: 0;
+    }
+
+    .test-slider .slick-dots li button {
+        width: 20px;
+        height: 20px;
+    }
+
+    form, .map {
+        width: 450px;
+    }
+
+    input, textarea, .map iframe {
+        width: 450px;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1200px) {
+    header {
+        padding: 0 5em;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .card-wrap {
+        gap: 2.5em;
+    }
+
+    .card, .card img, .mask {
+        width: 100%;
+    }
+
+    .test {
+        margin: 0 10px;
+    }
+
+    .test-slider .slick-arrow.prev {
+        left: -50px;
+    }
+    
+    .test-slider .slick-arrow.next {
+        right: -50px;
+    }
+
+    form, .map {
+        width: 500px;
+    }
+
+    input, textarea, .map iframe {
+        width: 500px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .test {
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 450px;
+    }
+
+    .card-wrap {
+        gap: 3em;
+    }
+
+    .fa-google {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1380px) {
+    .test {
+        height: 350px;
+    }
+
+    .card-wrap {
+        gap: 4em;
+    }
+
+    .gallery-wrap {
+        gap: 3em;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    #banner:after, #service:after, #about:after, #gallery:after, #testimonials:after {
+        height: 600px;
+    }
+}
